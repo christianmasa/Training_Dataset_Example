@@ -1,0 +1,34 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: ./datasets/coco/train.txt  # 118k images
+val: ./datasets/coco/val.txt  # 5k images
+test: ./datasets/coco/val.txt # 20k images for submission to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 23
+
+# class names
+names: [
+    "None",
+    "Building",
+    "Fences",
+    "Other",
+    "Pedestrian",
+    "Poles",
+    "RoadLine",
+    "Road",
+    "Sidewalk",
+    "TrafficSign",
+    "Vegetation",
+    "Vehicle",
+    "Wall",
+    "Sky",
+    "Ground",
+    "Bridge",
+    "RailTrack",
+    "GuardRail",
+    "TrafficLight",
+    "Static",
+    "Dynamic",
+    "Water",
+    "Terrain",
+]
